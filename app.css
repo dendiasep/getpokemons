@@ -1,0 +1,103 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    text-align: center;
+    max-width:100%;   
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+#button {
+    color: grey;
+    font-size: 20px;
+    padding: 5px 70px;
+    background-color: rgb(240, 243, 36);
+    border: 5px solid rgb(176, 179, 25);
+    border-radius: 10px;
+}
+#button:hover {
+    cursor: pointer;
+    color: rgb(63, 62, 62);
+    background-color: rgb(244, 247, 77);
+}
+
+#button:active {
+    color: white;
+    background-color: darkgray;
+}
+
+#hasil {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.kartu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 20px 5px;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+
+.kartu img {
+    width: 200px;
+}
+
+.grass {
+    background-color: #8DD694;
+    border: 5px solid #5DAD65;
+}
+
+.fire {
+    background-color: #E69D8D;
+    border: 5px solid #C67D6D;
+}
+
+.water {
+    background-color: #BDC6E6;
+    border: 5px solid #6F9ECA;
+}
+
+.bug {
+    background-color: #BDDD7A;
+    border: 5px solid #A2C170;
+}
+
+.normal {
+    background-color: #B1B1B1;
+    border: 5px solid #959595;
+}
+
+.poison {
+    background-color: #A55DB1;
+    border: 5px solid #8A4A95;
+}
+
+.electric {
+    background-color: #E7C859;
+    border: 5px solid #D0B34A;
+}
+
+.ground {
+    background-color: #EFBE85;
+    border: 5px solid #D0A068;
+}
+
+.fairy {
+    background-color: #EEA1E2;
+    border: 5px solid #C77FBC;
+}
